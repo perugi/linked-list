@@ -1,6 +1,7 @@
 {
   "name": "@perugi/changeme",
   "version": "1.0.0",
+  "type": "module",
   "description": "CHANGEME",
   "main": "package.js",
   "scripts": {
