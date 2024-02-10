@@ -1,17 +1,26 @@
-# npm-template
+# Linked List
+A practice implementation of a Linked List in JavaScript as an ES6 Class, based on the specifications at: https://www.theodinproject.com/lessons/javascript-linked-lists.
 
-A template repo for modules, published on npm, with basic setup development dependencies installed.
-
-## Usage:
-
-- Install dependencies: `$ npm install`
-- Change package name, description and git repo in package.json
-- Create module in package.js
-- Change this README file
-- Publish to npm: `$ npm publish --access public`
-
-Install:
-
+## Usage
+```js
+const list = new LinkedList();
+list.append(1);
+list.append(2);
+console.log(list.toString()) // ( 1 ) -> ( 2 ) -> null;
 ```
-$ npm install @perugi/changeme
-```
+
+## Methods
+The following class methods are implemented:
+- `append(value)` adds a new node containing value to the end of the list
+prepend(value) adds a new node containing value to the start of the list
+size returns the total number of nodes in the list
+head returns the first node in the list
+tail returns the last node in the list
+at(index) returns the node at the given index
+pop removes the last element from the list
+contains(value) returns true if the passed in value is in the list and otherwise returns false.
+find(value) returns the index of the node containing value, or null if not found.
+toString represents your LinkedList objects as strings, so you can print them out and preview them in the console. The format should be: ( value ) -> ( value ) -> ( value ) -> null
+insertAt(value, index) that inserts a new node with the provided value at the given index.
+removeAt(index) that removes the node at the given index.
+
