@@ -139,3 +139,5 @@ export default class LinkedList {
     this.at(index - 1).nextNode = this.at(index).nextNode;
   }
 }
+
+module.exports = LinkedList;
