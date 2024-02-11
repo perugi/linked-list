@@ -1,6 +1,6 @@
 {
   "name": "@perugi/linked-list",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "description": "A practice implementation of a Linked List in JavaScript.",
   "main": "LinkedList.js",

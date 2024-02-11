@@ -1,4 +1,4 @@
-import Node from './Node.mjs';
+const Node = require('./Node');
 
 export default class LinkedList {
   headNode;
@@ -139,3 +139,5 @@ export default class LinkedList {
     this.at(index - 1).nextNode = this.at(index).nextNode;
   }
 }
+
+module.exports = LinkedList;
