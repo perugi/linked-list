@@ -27,3 +27,4 @@ The following class methods are implemented:
 - `toString()` returns the LinkedList objects as strings. The format is: ( value ) -> ( value ) -> ( value ) -> null
 - `insertAt(value, index)` inserts a new node with the provided value at the given index.
 - `removeAt(index)` removes the node at the given index.
+- `search(searchFunction)` returns the first item which satisfies the passed searchFunction
