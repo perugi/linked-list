@@ -203,20 +203,22 @@ class LinkedList {
   }
 
   /**
-   * Perform a search using the given search function. Returns the first node that
-   * satisfies the search function.
+   * Perform a search using the given search function. Returns the index of the
+   * first node that satisfies the search function.
    *
    * @param {function} searchFunction - The function used to search for a specific node.
-   * @return {Node|null} The found node or null if not found.
+   * @return {number|null} The index of the found node or null if not found.
    */
   search(searchFunction) {
     let currentNode = this.headNode;
+    let index = 0;
 
     while (currentNode) {
       if (searchFunction(currentNode)) {
-        return currentNode;
+        return index;
       }
       currentNode = currentNode.nextNode;
+      index += 1;
     }
 
     return null;
