@@ -1,22 +1,22 @@
 {
-  "name": "@perugi/changeme",
+  "name": "linked-list",
   "version": "1.0.0",
   "type": "module",
-  "description": "CHANGEME",
+  "description": "A practice implementation of a Linked List in JavaScript.",
   "main": "package.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/perugi/CHANGEME.git"
+    "url": "git+https://github.com/perugi/linked-list.git"
   },
   "author": "Dominik Perusko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/perugi/CHANGEME/issues"
+    "url": "https://github.com/perugi/linked-list/issues"
   },
-  "homepage": "https://github.com/perugi/CHANGEME#readme",
+  "homepage": "https://github.com/perugi/linked-list#readme",
   "devDependencies": {
     "@perugi/eslint-config": "^1.0.3",
     "@perugi/prettier-config": "^1.0.2",
