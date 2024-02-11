@@ -223,6 +223,15 @@ class LinkedList {
 
     return null;
   }
+
+  *[Symbol.iterator]() {
+    let currentNode = this.headNode;
+
+    while (currentNode) {
+      yield currentNode.value;
+      currentNode = currentNode.nextNode;
+    }
+  }
 }
 
 module.exports = LinkedList;
