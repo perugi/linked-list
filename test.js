@@ -38,3 +38,13 @@ console.log(`List after inserting at index 2: ${list.toString()}`);
 list.removeAt(2);
 console.log(`List after removing from index 2: ${list.toString()}`);
 // console.log(`Removing at index out of bounds: ${list.removeAt(1000)}`); // Throws error
+console.log(
+  `Searching the list for the first numerical value: ${
+    list.search((node) => typeof node.value === 'number').value
+  }`
+);
+console.log(
+  `Searching the list for value which is an array: ${list.search(
+    (node) => node.value.constructor === Array
+  )}`
+);
