@@ -1,9 +1,9 @@
 {
   "name": "@perugi/linked-list",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "type": "module",
   "description": "A practice implementation of a Linked List in JavaScript.",
-  "main": "test.js",
+  "main": "LinkedList.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
