@@ -10,7 +10,7 @@ class LinkedList {
   /**
    * Append a new node with the given value to the end of the linked list.
    *
-   * @param {type} value - the value to be appended
+   * @param {any} value - the value to be appended
    */
   append(value) {
     const node = new Node(value, null);
@@ -26,7 +26,7 @@ class LinkedList {
   /**
    * Adds a new node with the given value to the beginning of the linked list.
    *
-   * @param {type} value - the value to be added to the linked list
+   * @param {any} value - the value to be added to the linked list
    */
   prepend(value) {
     const node = new Node(value, this.headNode);
@@ -112,7 +112,7 @@ class LinkedList {
   /**
    * Check if the linked list contains a specific value.
    *
-   * @param {type} value - the value to check for in the linked list
+   * @param {any} value - the value to check for in the linked list
    * @return {boolean} true if the value is found, false otherwise
    */
   contains(value) {
@@ -131,7 +131,7 @@ class LinkedList {
   /**
    * Find the index of the first occurrence of the given value in the linked list.
    *
-   * @param {type} value - The value to search for in the linked list
+   * @param {any} value - The value to search for in the linked list
    * @return {number|null} The index of the first occurrence of the value, or null if the value is not found
    */
   find(value) {
